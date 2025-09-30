@@ -1,0 +1,97 @@
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 100px;
+}
+
+.skill-title {
+    position: relative;
+}
+
+.skill-title h1 {
+    padding: 0px 30px;
+    font-size: 55px;
+    font-weight: 600;
+    background: linear-gradient(267deg,#ffe389 0%, #ff8fdd 40%, #c896fb 100%);
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    background-clip: text; 
+    color: transparent;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 14px;
+}
+
+.my-skills {
+    display: grid;
+    align-items: start;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); 
+    gap: 20px;
+    width: 100%;
+}
+
+.skillImageContainer {
+    background-color: rgb(253, 253, 253);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 90px;
+    flex-shrink: 0;
+    margin-bottom: 10px;
+}
+
+.skillImageContainer img {
+    width: 50px;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 5px;
+}
+
+.skill p {
+    font-size: 20px;
+    font-family: Outfit;
+    font-weight: 500;
+    text-align: center;
+    white-space: normal;
+}
+
+.skill:hover .skillImageContainer {
+    transform: scale(1.02);
+    border: 4px solid #ff00ff;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+@media (max-width: 768px) {
+    .skills {
+        gap: 40px;
+        margin: 50px 70px;
+        align-items: start;
+    }
+
+    .skill-title h1 {
+        font-size: 40px;
+        padding: 0;
+    }
+
+    .skill-title img {
+        width: 130px;
+        right: -20px;
+    }
+}
