@@ -33,7 +33,7 @@ const Navbar = () => {
                     <AnchorLink className='anchor-link' offset={50} href='#about'><p onClick={()=>setMenu("about")}>About Me</p></AnchorLink>{menu === "about"?<img src={underline} alt=''/>:<></>}
                 </li>
                 <li>
-                    <AnchorLink className='anchor-link' offset={50} href='#about'><p onClick={()=>setMenu("skills")}>Skills</p></AnchorLink>{menu === "skills"?<img src={underline} alt=''/>:<></>}
+                    <AnchorLink className='anchor-link' offset={50} href='#skills'><p onClick={()=>setMenu("skills")}>Skills</p></AnchorLink>{menu === "skills"?<img src={underline} alt=''/>:<></>}
                 </li>
                 <li>
                     <AnchorLink className='anchor-link' offset={50} href='#work'><p onClick={()=>setMenu("portfolio")}>Portfolio</p></AnchorLink>{menu === "portfolio"?<img src={underline} alt=''/>:<></>}

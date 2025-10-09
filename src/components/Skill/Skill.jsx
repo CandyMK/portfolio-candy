@@ -1,6 +1,5 @@
 import React from 'react'
 import skills from '../../data/skills.json'
-import theme_pattern from '../../assets/theme_pattern.svg'
 import './Skill.css'
 
 const images = import.meta.glob("../../assets/skills/*", { eager: true });

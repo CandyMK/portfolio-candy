@@ -4,7 +4,7 @@ import mail_icon from '../../assets/mail_icon.svg'
 import call_icon from '../../assets/call_icon.svg'
 import { ToastContainer, toast } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
-import "../toast/ToastCustom.css";
+import "../Toast/ToastCustom.css";
 import {RiLinkedinBoxFill, RiGithubFill} from "@remixicon/react";
 
 const Contact = () => {
