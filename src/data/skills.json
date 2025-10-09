@@ -1,34 +1,34 @@
 [
   {
     "title": "HTML",
-    "imageSrc": "src/assets/skills/html.png"
+    "imageSrc": "html.png"
   },
   {
     "title": "CSS",
-    "imageSrc": "src/assets/skills/css.png"
+    "imageSrc": "css.png"
   },
   {
     "title": "JavaScript",
-    "imageSrc": "src/assets/skills/javascript.png"
+    "imageSrc": "javascript.png"
   },
   {
     "title": "React JS",
-    "imageSrc": "src/assets/skills/react.png"
+    "imageSrc": "react.png"
   },
   {
     "title": "Figma",
-    "imageSrc": "src/assets/skills/figma.png"
+    "imageSrc": "figma.png"
   },
   {
     "title": "Laravel",
-    "imageSrc": "src/assets/skills/laravel.png"
+    "imageSrc": "laravel.png"
   },
   {
     "title": "Visual Studio Code",
-    "imageSrc": "src/assets/skills/vsCode.png"
+    "imageSrc": "vsCode.png"
   },
   {
     "title": "GitHub",
-    "imageSrc": "src/assets/skills/github.png"
+    "imageSrc": "github.png"
   }
 ]

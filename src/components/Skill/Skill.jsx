@@ -14,10 +14,14 @@ const Skill = () => {
         <div className='content'>
             <div className='my-skills'>
                 {skills.map((skill, id) => {
+
+                    const imagePath = `../../assets/skills/${skill.imageSrc}`;
+                    const image = images[imagePath]?.default;
+
                     return (
                         <div key={id} className='skill'>
                             <div className='skillImageContainer'>
-                                <img src={skill.imageSrc} alt={skill.title} />
+                                <img src={image} alt={skill.title} />
                             </div>
 
                             <p>{skill.title}</p>
