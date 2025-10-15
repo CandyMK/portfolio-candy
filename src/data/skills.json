@@ -1,5 +1,9 @@
 [
   {
+    "title": "Java",
+    "imageSrc": "java.jpg"
+  },
+  {
     "title": "HTML",
     "imageSrc": "html.png"
   },
@@ -22,6 +26,10 @@
   {
     "title": "Laravel",
     "imageSrc": "laravel.png"
+  },
+  {
+    "title": "MySQL",
+    "imageSrc": "mysql.png"
   },
   {
     "title": "Visual Studio Code",

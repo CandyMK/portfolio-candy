@@ -13,7 +13,7 @@
 
 .myWork-title h1 {
     padding: 0px 30px;
-    font-size: 55px;
+    font-size: 45px;
     font-weight: 600;
     background: linear-gradient(267deg,#ffe389 0%, #ff8fdd 40%, #c896fb 100%);
     -webkit-background-clip: text; 
@@ -152,7 +152,7 @@
     }
 
     .myWork-container {
-        gap: 20px;
+        gap: 55px;
         grid-template-columns: 1fr 1fr;
     }
 
