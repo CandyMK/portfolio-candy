@@ -30,8 +30,16 @@
 
 .about-left img {
     border-radius: 20px;
-    width: 250px;
+    width: 320px;
+    height: auto;
+    max-width: 100%;
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.609);
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.about-left img:hover {
+    transform: scale(1.08);
 }
 
 .about-right {
@@ -46,6 +54,17 @@
     gap: 20px;
     font-size: 20px;
     font-weight: 500;
+}
+
+.slide-in {
+    opacity: 0;
+    transform: translateX(-80px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.slide-in.show {
+    opacity: 1;
+    transform: translateX(0);
 }
 
 /* .about-achievements {
