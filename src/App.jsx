@@ -7,7 +7,6 @@ import Skill from './components/Skill/Skill'
 import MyWork from './components/MyWork/MyWork'
 import Contact from './components/Contact/Contact'
 import ScrollOnResize from './ScrollOnResize'
-import ScrollAnimation from './components/ScrollAnimation/ScrollAnimation'
 
 import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
@@ -31,7 +30,6 @@ const App = () => {
       {/* Konten di atas particles */}
       <div className="relative z-10">
         <ScrollOnResize />
-        <ScrollAnimation />
         <Navbar />
         <Hero />
         <About />
