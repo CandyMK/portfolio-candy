@@ -112,6 +112,12 @@
   cursor: default;
 }
 
+.myWork-links{
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
 .myWork-links a {
   display: inline-block;
   text-decoration: none;
