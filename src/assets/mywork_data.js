@@ -11,7 +11,7 @@ const mywork_data = [
         w_img:project1_img,
         "description": "Vkellogg’s is a company website designed to showcase its diverse range of products, highlight best-sellers, and share creative recipes made with those products. The platform was developed to reflect the brand’s identity while enhancing customer engagement and accessibility through a clean and user-friendly interface.",
         "skills": ["Figma", "HTML", "CSS", "JavaScript"],
-        "demo": "https://www.example.com",
+        // "demo": "https://www.example.com",
         "source": "https://github.com/CandyMK/LabProjectHCI"
     },
     {
@@ -20,7 +20,7 @@ const mywork_data = [
         w_img:project2_img,
         "description": "A web-based platform designed to enable users to exchange services without monetary transactions. Developed using Laravel and React, the application provides features for seamless interaction, service discovery, and a two-way deal confirmation system between users.",
         "skills": ["HTML", "CSS", "Laravel", "PHP", "MySQL"],
-        "demo": "https://www.example.com",
+        // "demo": "https://www.example.com",
         "source": "https://github.com/CandyMK/Project-SE_Kelompok-9_Swapify"
     },
     {
@@ -38,7 +38,7 @@ const mywork_data = [
         w_img:project4_img,
         "description": "PT Chipichapa is an e-commerce website developed as the final project for a backend-focused class organized by a student club. The platform facilitates buying and selling of products, featuring separate sections for administrators and users to manage operations and transactions efficiently.",
         "skills": ["PHP", "Laravel"],
-        "demo": "https://www.example.com",
+        // "demo": "https://www.example.com",
         "source": "https://github.com/CandyMK/LnT_BE_FinalProject_Candy-Maurentia"
     },
     {
@@ -48,7 +48,7 @@ const mywork_data = [
         "description": "PT Chipichapa is an e-commerce website developed as the final project for a backend-focused class organized by a student club. The platform facilitates buying and selling of products, featuring separate sections for administrators and users to manage operations and transactions efficiently.",
         "skills": ["Figma"],
         "demo": "https://www.figma.com/proto/31elDdHOQ7upRaYyGpksXS/HySense---Entre?page-id=0%3A1&node-id=8-2&p=f&viewport=-1%2C-1215%2C0.28&t=vVLnflAXcM5jCiPv-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=8%3A2",
-        "source": "https://www.figma.com/design/31elDdHOQ7upRaYyGpksXS/HySense---Entre?node-id=0-1&t=66g4l9PlLRaMVRbO-1"
+        "source": "https://github.com/CandyMK/HySense"
     },
 ]
  

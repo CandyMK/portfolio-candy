@@ -28,9 +28,9 @@ const MyWork = () => {
                     )}
 
                     <div className='myWork-links'>
-                        {/* {work.demo && (
+                        {work.demo && (
                             <a href={work.demo} target="_blank" rel="noopener noreferrer">Demo</a>
-                        )} */}
+                        )}
 
                         {work.source && (
                             <a href={work.source} target="_blank" rel="noopener noreferrer">Source</a>
