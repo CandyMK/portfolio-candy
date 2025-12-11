@@ -2,6 +2,7 @@ import project1_img from '../assets/mockup_project/Vklog_Mockup.png'
 import project2_img from '../assets/mockup_project/swapify_Mockup.png'
 import project3_img from '../assets/mockup_project/SiPake_Mockup.png'
 import project4_img from '../assets/mockup_project/Chipicapa_Mockup.png'
+import project5_img from '../assets/mockup_project/HySense_Mockup.png'
 
 const mywork_data = [
     {
@@ -39,6 +40,15 @@ const mywork_data = [
         "skills": ["PHP", "Laravel"],
         "demo": "https://www.example.com",
         "source": "https://github.com/CandyMK/LnT_BE_FinalProject_Candy-Maurentia"
+    },
+    {
+        w_no:5,
+        w_name:"HySense",
+        w_img:project5_img,
+        "description": "PT Chipichapa is an e-commerce website developed as the final project for a backend-focused class organized by a student club. The platform facilitates buying and selling of products, featuring separate sections for administrators and users to manage operations and transactions efficiently.",
+        "skills": ["Figma"],
+        "demo": "https://www.figma.com/proto/31elDdHOQ7upRaYyGpksXS/HySense---Entre?page-id=0%3A1&node-id=8-2&p=f&viewport=-1%2C-1215%2C0.28&t=vVLnflAXcM5jCiPv-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=8%3A2",
+        "source": "https://www.figma.com/design/31elDdHOQ7upRaYyGpksXS/HySense---Entre?node-id=0-1&t=66g4l9PlLRaMVRbO-1"
     },
 ]
  
