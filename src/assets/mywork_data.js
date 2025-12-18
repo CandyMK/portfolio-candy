@@ -3,6 +3,7 @@ import project2_img from '../assets/mockup_project/swapify_Mockup.png'
 import project3_img from '../assets/mockup_project/SiPake_Mockup.png'
 import project4_img from '../assets/mockup_project/Chipicapa_Mockup.png'
 import project5_img from '../assets/mockup_project/HySense_Mockup.png'
+import project6_img from '../assets/mockup_project/Quizzle_Mockup.png'
 
 const mywork_data = [
     {
@@ -49,6 +50,15 @@ const mywork_data = [
         "skills": ["Figma"],
         "demo": "https://www.figma.com/proto/31elDdHOQ7upRaYyGpksXS/HySense---Entre?page-id=0%3A1&node-id=8-2&p=f&viewport=-1%2C-1215%2C0.28&t=vVLnflAXcM5jCiPv-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=8%3A2",
         "source": "https://github.com/CandyMK/HySense"
+    },
+    {
+        w_no:6,
+        w_name:"Quizzle",
+        w_img:project6_img,
+        "description": "Quizzle is an interactive quiz platform designed to test user knowledge across various categories like Math, English, and General Knowledge. It demonstrates seamless frontend-backend interaction using React and cloud-based database services.",
+        "skills": ["React", "JavaScript", "Tailwind CSS", "Supabase"],
+        // "demo": "https://www.figma.com/proto/31elDdHOQ7upRaYyGpksXS/HySense---Entre?page-id=0%3A1&node-id=8-2&p=f&viewport=-1%2C-1215%2C0.28&t=vVLnflAXcM5jCiPv-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=8%3A2",
+        "source": "https://github.com/CandyMK/Quizzle"
     },
 ]
  

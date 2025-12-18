@@ -14,7 +14,7 @@ import 'react-toastify/dist/ReactToastify.css'
 const App = () => {
   return (
     <div className="w-full min-h-screen relative">
-      <div className="fixed inset-0 -z-5 bg-gradient-to-br from-[#07064d] via-[#2d0534] to-black">
+      <div className="fixed inset-0 -z-5 bg-linear-to-br from-[#07064d] via-[#2d0534] to-black">
         <Particles
           particleColors={['#ffffff', '#ffffff']}
           particleCount={200}
@@ -27,7 +27,6 @@ const App = () => {
         />
       </div>
       
-      {/* Konten di atas particles */}
       <div className="relative z-10">
         <ScrollOnResize />
         <Navbar />

@@ -32,13 +32,16 @@
 
 .contact-section {
     display: flex;
-    gap: 100px;
+    gap: 50px;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .contact-left {
     display: flex;
     flex-direction: column;
     gap: 30px;
+    flex: 1;
 }
 
 .contact-left h1 {
@@ -67,8 +70,9 @@
 .contact-right {
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: flex-start;
     gap: 20px;
+    flex: 1;
 }
 
 .contact-right label {
@@ -79,24 +83,26 @@
 
 .contact-right input {
     border: none;
-    width: 700px;
+    width: 100%;
+    max-width: 700px; 
     height: 55px;
     padding-left: 20px;
     border-radius: 4px;
     background: #58585f;
     color: #f0f0f0;
-    font-family: Outfit;
+    font-family: Outfit; 
     font-size: 18px;
 }
 
 .contact-right textarea {
     border: none;
-    width: 670px;
+    width: 100%;
+    max-width: 700px; 
     padding: 25px;
     border-radius: 4px;
     background: #58585f;
     color: #f0f0f0;
-    font-family: Outfit;
+    font-family: Outfit; 
     font-size: 18px;
 }
 
@@ -189,18 +195,23 @@
         font-size: 20px;
     }
 
+    .contact-right {
+        width: 100%; 
+    }
+
     .contact-right input {
-        width: 110%;
-        font-size: 20px;
+        width: 100%;
+        font-size: 16px; 
     }
 
     .contact-right textarea {
-        width: 102%;
-        font-size: 20px;
+        width: 100%; 
+        font-size: 16px;
     }
 
     .contact-submit {
+        width: 100%; 
         font-size: 20px;
-        padding: 10px 35px;
+        padding: 14px 0; 
     }
 }
