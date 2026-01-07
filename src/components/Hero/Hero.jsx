@@ -14,7 +14,7 @@ const Hero = () => {
         
       <div className="hero-action">
         <a className="hero-resume" href="https://github.com/CandyMK" target="_blank" rel="noopener noreferrer">GitHub</a>
-        <a className="hero-resume" href="/path/to/resume.pdf" target="_blank" rel="noopener noreferrer">CV</a>
+        <a className="hero-resume" href="https://drive.google.com/file/d/1NT3ZNsaaKw1XYqn9IZC4_NU4OqVdHCab/view?usp=sharing" target="_blank" rel="noopener noreferrer">CV</a>
       </div>
     </div>
   )
