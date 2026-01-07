@@ -24,6 +24,10 @@
     "imageSrc": "react.png"
   },
   {
+    "title": "Bootstrap",
+    "imageSrc": "bootstrap.png"
+  },
+  {
     "title": "Figma",
     "imageSrc": "figma.png"
   },

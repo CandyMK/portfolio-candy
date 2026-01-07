@@ -1,9 +1,10 @@
 import project1_img from '../assets/mockup_project/Vklog_Mockup.png'
 import project2_img from '../assets/mockup_project/swapify_Mockup.png'
-import project3_img from '../assets/mockup_project/SiPake_Mockup.png'
-import project4_img from '../assets/mockup_project/Chipicapa_Mockup.png'
-import project5_img from '../assets/mockup_project/HySense_Mockup.png'
-import project6_img from '../assets/mockup_project/Quizzle_Mockup.png'
+import project3_img from '../assets/mockup_project/POSit_Mockup.png'
+import project4_img from '../assets/mockup_project/SiPake_Mockup.png'
+import project5_img from '../assets/mockup_project/Chipicapa_Mockup.png'
+import project6_img from '../assets/mockup_project/HySense_Mockup.png'
+import project7_img from '../assets/mockup_project/Quizzle_Mockup.png'
 
 const mywork_data = [
     {
@@ -26,35 +27,44 @@ const mywork_data = [
     },
     {
         w_no:3,
-        w_name:"SiPaKe",
+        w_name:"POS.it",
         w_img:project3_img,
+        "description": "POS.it is a lightweight web-based Point of Sales system designed to help small businesses manage sales faster, track inventory accurately, and instantly view insightful reports. It features stock monitoring, FEFO-based inventory control, transaction history, and role-based access for admins and employees.",
+        "skills": ["Laravel", "PHP", "MySQL", "Bootstrap", "JavaScript"],
+        // "demo": "https://www.figma.com/proto/31elDdHOQ7upRaYyGpksXS/HySense---Entre?page-id=0%3A1&node-id=8-2&p=f&viewport=-1%2C-1215%2C0.28&t=vVLnflAXcM5jCiPv-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=8%3A2",
+        "source": "https://github.com/CandyMK/pos-it"
+    },
+    {
+        w_no:4,
+        w_name:"SiPaKe",
+        w_img:project4_img,
         "description": "SiPaKe is an integrated digital application that unifies civil administration services—such as ID card and birth certificate registration—with tax and retribution services, including e-Filing and vehicle tax payments. The platform is designed to simplify public service processes, increase efficiency, and provide citizens with a seamless, centralized solution.",
         "skills": ["Figma"],
         "demo": "https://www.figma.com/proto/RzgIXC0STk4Cv0WmHQBizP/TECHFEST?page-id=0%3A1&node-id=1-35&viewport=938%2C261%2C0.09&t=tVSGFdeqUQMqbPb8-1&scaling=scale-down&content-scaling=fixed",
         "source": "https://github.com/CandyMK/TechFest---SiPaKe"
     },
     {
-        w_no:4,
+        w_no:5,
         w_name:"PT ChipiChapa",
-        w_img:project4_img,
+        w_img:project5_img,
         "description": "PT Chipichapa is an e-commerce website developed as the final project for a backend-focused class organized by a student club. The platform facilitates buying and selling of products, featuring separate sections for administrators and users to manage operations and transactions efficiently.",
         "skills": ["PHP", "Laravel"],
         // "demo": "https://www.example.com",
         "source": "https://github.com/CandyMK/LnT_BE_FinalProject_Candy-Maurentia"
     },
     {
-        w_no:5,
+        w_no:6,
         w_name:"HySense",
-        w_img:project5_img,
+        w_img:project6_img,
         "description": "PT Chipichapa is an e-commerce website developed as the final project for a backend-focused class organized by a student club. The platform facilitates buying and selling of products, featuring separate sections for administrators and users to manage operations and transactions efficiently.",
         "skills": ["Figma"],
         "demo": "https://www.figma.com/proto/31elDdHOQ7upRaYyGpksXS/HySense---Entre?page-id=0%3A1&node-id=8-2&p=f&viewport=-1%2C-1215%2C0.28&t=vVLnflAXcM5jCiPv-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=8%3A2",
         "source": "https://github.com/CandyMK/HySense"
     },
     {
-        w_no:6,
+        w_no:7,
         w_name:"Quizzle",
-        w_img:project6_img,
+        w_img:project7_img,
         "description": "Quizzle is an interactive quiz platform designed to test user knowledge across various categories like Math, English, and General Knowledge. It demonstrates seamless frontend-backend interaction using React and cloud-based database services.",
         "skills": ["React", "JavaScript", "Tailwind CSS", "Supabase"],
         // "demo": "https://www.figma.com/proto/31elDdHOQ7upRaYyGpksXS/HySense---Entre?page-id=0%3A1&node-id=8-2&p=f&viewport=-1%2C-1215%2C0.28&t=vVLnflAXcM5jCiPv-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=8%3A2",
